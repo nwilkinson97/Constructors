@@ -1,4 +1,5 @@
-﻿namespace Constructors
+﻿// You can use the {CTRL} + TAB to alternate between open Code windows.
+namespace Constructors
 {
     public class Customer
     {
