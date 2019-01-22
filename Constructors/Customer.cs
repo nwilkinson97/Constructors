@@ -27,9 +27,8 @@ namespace Constructors
             this.Id = id;
         }
 
-        public Customer(int id, string name)
+        public Customer(int id, string name): this(id)
         {
-            this.Id = id;
             this.Name = name;
         }
     }
