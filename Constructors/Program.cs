@@ -28,6 +28,10 @@
             // --- Press {F5} to Run the Program
             // ----- This time the program runs and stops on the breakpoint 
             // Note:  To Stop the Debugger press {SHIFT} + {F5}
+
+            var order = new Order();
+            customer.Orders.Add(order);
+
             System.Console.WriteLine(customer.Id);
             System.Console.WriteLine(customer.Name);
         }
