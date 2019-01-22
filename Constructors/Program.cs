@@ -17,6 +17,12 @@
 
             // Display the Customer ID and Name
             // Using the Code Snippet cw {TAB}
+            // Note:  Place a Breakpoint on the Name property for Customer 
+            // -- {F9} Toggles Breakpoints
+            // --- Press {CTRL} + {F5} to Run the Program without Debugging
+            // ----- This time the program runs and ignores the breakpont (WITHOUT DEBGUGGING)
+            // --- Press {F5} to Run the Program
+            // ----- This time the program runs and stops on the breakpoint 
             System.Console.WriteLine(customer.Id);
             System.Console.WriteLine(customer.Name);
         }
