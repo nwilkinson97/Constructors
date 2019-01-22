@@ -7,6 +7,10 @@ namespace Constructors
     {
         public int Id;
         public string Name;
+
+        // Here you will notice when you first add a List it is not recognized as a valid type.
+        // to resolve this use the Quick Actions shortcut {CTRL} + . and add the appropriate 
+        // using statement.
         public List<Order> Orders;
 
         /// <summary>
