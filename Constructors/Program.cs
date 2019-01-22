@@ -23,6 +23,7 @@
             // ----- This time the program runs and ignores the breakpont (WITHOUT DEBGUGGING)
             // --- Press {F5} to Run the Program
             // ----- This time the program runs and stops on the breakpoint 
+            // Note:  To Stop the Debugger press {SHIFT} + {F5}
             System.Console.WriteLine(customer.Id);
             System.Console.WriteLine(customer.Name);
         }
