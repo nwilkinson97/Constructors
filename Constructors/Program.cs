@@ -9,7 +9,11 @@
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
+            // By using the generic variable we can name the variable on the left 
+            // and assign the type on the right.  
+            // The Other way by assigning the type on both the left and the right
+            // can clutter the code and is not considered to be a best practice.
+            var customer = new Customer();
         }
     }
 }
