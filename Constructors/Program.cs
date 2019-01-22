@@ -1,9 +1,5 @@
 ﻿namespace Constructors
 {
-    public class Order
-    {
-
-    }
     // After having used the Quick Actions to move the Customer Class to a new file
     // you can use the keyboard shortcut to open the Solution Explorer {CTRL} + {ALT} + L
     // that will place the focus in the solutions explorer.  You can then highlight the
