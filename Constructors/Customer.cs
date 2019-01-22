@@ -15,6 +15,9 @@ namespace Constructors
         // NOTE:  You could initialize the Orders Field here.  Instead of using inheritance.  However,
         //    -- for this lessone I wanted to show how we can use the this keyword to inherit or link
         //     --> our class constructors.
+
+        // The readonly modifier here tells the compiler that this field can only be defined
+        // when the class is initialized.
         public readonly List<Order> Orders;
 
         /// <summary>
