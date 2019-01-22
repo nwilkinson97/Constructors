@@ -13,6 +13,10 @@
             // and assign the type on the right.  
             // The Other way by assigning the type on both the left and the right
             // can clutter the code and is not considered to be a best practice.
+
+            // On this line to see the list of constructors available remove the 
+            // Opening parenthesis and retype it.  You will see a list of available
+            // Constructors.
             var customer = new Customer(1, "Kid Dynamite");
 
             // Display the Customer ID and Name
