@@ -19,7 +19,7 @@ namespace Constructors
         /// </summary>
         public Customer()
         {
-
+            Orders = new List<Order>();
         }
 
         public Customer(int id)
