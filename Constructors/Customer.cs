@@ -22,7 +22,7 @@ namespace Constructors
             Orders = new List<Order>();
         }
 
-        public Customer(int id)
+        public Customer(int id): this()
         {
             this.Id = id;
         }
