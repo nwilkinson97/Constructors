@@ -14,6 +14,11 @@
             // The Other way by assigning the type on both the left and the right
             // can clutter the code and is not considered to be a best practice.
             var customer = new Customer();
+
+            // Display the Customer ID and Name
+            // Using the Code Snippet cw {TAB}
+            System.Console.WriteLine(customer.Id);
+            System.Console.WriteLine(customer.Name);
         }
     }
 }
