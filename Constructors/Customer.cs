@@ -10,6 +10,11 @@ namespace Constructors
         /// Default Constructor for the customer class. 
         /// Note:  Code Snippet ctor {TAB}
         /// </summary>
+        public Customer()
+        {
+
+        }
+
         public Customer(int id)
         {
             this.Id = id;
